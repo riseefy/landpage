@@ -289,7 +289,7 @@
             fixedBgPos: "auto",
             overflowY: "auto",
             closeMarkup: '<button title="%title%" type="button" class="mfp-close">&times;</button>',
-            tClose: "Close (Esc)",
+            tClose: "Fechar (Esc)",
             tLoading: "Loading..."
         }
     }, e.fn.magnificPopup = function (n) {
@@ -755,7 +755,7 @@ $(function () {
                 if (data.responseText !== '') {
                     $(formMessages).text(data.responseText);
                 } else {
-                    $(formMessages).text('Oops! An error occured.');
+                    $(formMessages).text('Oops! Ocorreu um erro.');
                 }
             });
     });
